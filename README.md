@@ -1,93 +1,56 @@
+# ⚡ AI Resume Analyzer
 
-# AI Resume Analyzer
+[![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://ai-resume-analyzer.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Aj1--7-blue?style=for-the-badge&logo=github)](https://github.com/Aj1-7/ai-resume-analyzer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-A modern, AI-powered resume analysis tool that provides instant feedback and optimization tips for job applications.
+> **AI-powered resume optimization tool** that analyzes resumes, extracts job details, and provides instant ATS feedback—all in a modern dark UI.
 
-## Features
+---
+
+## ✨ Features
 
 ### 🚀 **Smart Job Information Extraction**
-- **Auto-Extract Job Details**: Simply paste a job posting URL and our AI automatically extracts:
-  - Company name
-  - Job title
-  - Full job description
-  - Location (if available)
-  - Key requirements (if available)
-- **Supported Platforms**: LinkedIn, Indeed, Glassdoor, Monster, and most other job sites
-- **Fallback System**: Manual input option always available
-- **Real Web Scraping**: Uses Puppeteer for accurate data extraction
+- Paste a **job posting URL** → Instantly extracts:
+  - ✅ Company Name
+  - ✅ Job Title
+  - ✅ Full Job Description
+  - ✅ Location & Key Requirements (if available)
+- Supports **LinkedIn, Indeed, Glassdoor, Monster, and more**
+- Manual input fallback  
+- Built with **Puppeteer + Cheerio** scraping
 
 ### 🎯 **AI-Powered Resume Analysis**
-- **ATS Scoring**: Get your resume's ATS compatibility score
-- **Personalized Feedback**: Receive specific improvement suggestions
-- **Category Analysis**: Detailed breakdown of different resume sections
-- **Visual Scoring**: Beautiful circular and gauge score displays
+- Get **ATS compatibility score**
+- Personalized suggestions for each section
+- Visual scoring: Circular charts & gauge meters
+- Quick feedback → Faster resume improvements
 
 ### 🎨 **Modern Dark UI**
-- **3D Visual Effects**: Floating cards, depth shadows, and smooth animations
-- **Glassmorphism Design**: Modern translucent elements with blur effects
-- **Performance Optimized**: Hardware acceleration and smooth 60fps animations
-- **Responsive Design**: Works perfectly on all devices
+- Glassmorphism + 3D floating cards
+- Smooth **60fps animations**
+- Fully responsive → Mobile & desktop friendly
+- Optimized for speed & low latency
 
-## Quick Start
+---
 
-### 1. **Upload Resume**
-- Navigate to the upload page
-- Choose between auto-extraction or manual input
+## 🖼️ Screenshots (Coming Soon)
 
-### 2. **Job Information**
-- **Option A**: Paste a job posting URL (LinkedIn, Indeed, etc.)
-- **Option B**: Manually enter company name, job title, and description
+| Dashboard | Resume Analysis | Job Extraction |
+|-----------|---------------|---------------|
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Analysis](docs/screenshots/analysis.png) | ![Job Extraction](docs/screenshots/job.png) |
 
-### 3. **Get Analysis**
-- Upload your resume (PDF format)
-- Receive instant AI-powered feedback
-- View detailed scores and improvement tips
+---
 
-## Technical Stack
-
-- **Frontend**: React Router, TypeScript, Tailwind CSS
-- **AI**: Puter AI for resume analysis
-- **Web Scraping**: Puppeteer + Cheerio for job extraction
-- **File Processing**: PDF.js for document handling
-- **Styling**: Custom 3D effects and glassmorphism
-
-## Installation
+## 🚀 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/Aj1-7/ai-resume-analyzer.git
+cd ai-resume-analyzer
+
+# Install dependencies
 npm install
+
+# Run locally
 npm run dev
-```
-
-## Job Extraction API
-
-The job extraction feature uses a server-side API endpoint at `/api/extract-job` that:
-
-- **Scrapes Real Websites**: Uses Puppeteer to load and parse job pages
-- **Smart Selectors**: Platform-specific CSS selectors for accurate extraction
-- **Error Handling**: Graceful fallbacks if scraping fails
-- **Rate Limiting**: Built-in delays to respect website policies
-
-### Supported Job Sites
-- ✅ LinkedIn Jobs
-- ✅ Indeed
-- ✅ Glassdoor
-- ✅ Monster
-- ✅ Generic job sites (with fallback extraction)
-
-## Performance Features
-
-- **Hardware Acceleration**: GPU-accelerated animations and transforms
-- **Optimized Rendering**: Efficient CSS and minimal reflows
-- **Smooth Interactions**: 60fps animations with proper easing
-- **3D Effects**: Depth and perspective without performance impact
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## License
-
-MIT License - feel free to use this project for your own applications!
