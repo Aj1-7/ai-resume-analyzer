@@ -1,6 +1,6 @@
 # ⚡ AI Resume Analyzer
 
-[![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://ai-resume-analyzer.vercel.app)
+[![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel)](https://ai-resume-analyzer-fqhos0ymy-arjuns-projects-64ae235f.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Aj1--7-blue?style=for-the-badge&logo=github)](https://github.com/Aj1-7/ai-resume-analyzer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
