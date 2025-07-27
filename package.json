@@ -13,6 +13,7 @@
     "@react-router/serve": "^7.5.3",
     "@types/puppeteer": "^5.4.7",
     "@types/three": "^0.178.1",
+    "@vercel/analytics": "^1.5.0",
     "axios": "^1.11.0",
     "cheerio": "^1.1.2",
     "clsx": "^2.1.1",
